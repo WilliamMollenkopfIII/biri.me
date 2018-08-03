@@ -11,11 +11,11 @@ h2,h3 { font-weight: 300; color: #151949; }
 h2 { font-size: 54px; text-align: center; }
 h3 { font-size: 28px; }
 
-p.lead { text-align: center; color: #727878; }
+p.lead { text-align: center; color: ##58637d; }
 p.lead a { color: #FFFFFF; text-decoration: underline; }
 p.lead a:hover { text-decoration: none; }
 ul.no-bullets { list-style-type: none; margin: 0px; padding: 0px; }
-hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity=20); }
+hr { margin: 40px 0px; border-color: #58637d; opacity: 0.2; filter:alpha(opacity=20); }
 
 
 			
@@ -63,11 +63,21 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 
 
 .background-white { background: #FFFFFF; }
+.background-snowblue { background: #DAE6F1; }
 .background-gray { background: #434242; }
 .container { max-width: 1280px; padding: 40px 180px; }
 
+.background-white { background: #FFFFFF; }
+
 #profile .row > div { margin-bottom: 20px; }
 #profile .row > div img { width: 100%; max-width: 246px; height: auto; }
+
+
+#experiences .experience { margin-bottom: 20px; }
+#experiences .experience p > strong { display: block; padding-top: 8px; margin-bottom: 10px; }
+#experiences .experience .experience-details { display: block; margin-top: 6px; }
+#experiences .experience .experience-details * { color: #151949; }
+#experiences .experience .experience-details .seperator { color: #BCBCBC; }
 
 
 /* Jumbotron CSS */
@@ -95,9 +105,9 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 .jumbotron .container > * { text-align: center; color: #FFFFFF; }
 .jumbotron .container h1 { padding-bottom: 20px; border-bottom: 1px solid #FFFFFF; border-bottom-color: rgba(255,255,255,0.35); display: inline-block; }
 .jumbotron .container .lead { font-size: 20px; }
-.jumbotron .scroll-down { height: 80px; width: 110px; display: block; position: absolute; bottom: 0px; right: 5%; background-color: #222; text-align: center; z-index: 6; }
+.jumbotron .scroll-down { height: 80px; width: 110px; display: block; position: absolute; bottom: 0px; right: 5%; background-color: #EBF1F3; text-align: center; z-index: 6; border: 1px solid black; border-top-left-radius: 8px; border-top-right-radius: 8px;}
 .jumbotron .scroll-down .glyphicon { 
-	color: #FFFFFF; 
+	color: #222; 
 	font-size: 30px; 
 	padding-right: 2px; 
 	padding-top: 20px; 
