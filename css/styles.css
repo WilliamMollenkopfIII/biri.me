@@ -160,6 +160,21 @@ hr { margin: 40px 0px; border-color: #58637d; opacity: 0.2; filter:alpha(opacity
 
 
 
+.navbar  { border: 0px; background-color: #222222; position: absolute; top: 100%; right: 5%; width: 110px; z-index: 999; }
+.navbar .navbar-collapse { padding: 0px; max-height: none; }
+.navbar .navbar-nav { float: none; }
+.navbar-nav { margin: 0px; }
+.navbar .nav > li { display: block; float: none; height: 80px; } 
+.navbar .nav > li a { display: block;  height: 80px; text-align: center; padding-top: 30px; font-weight: 600; color: #FFFFFF; }
+.navbar .nav > li a:hover, .navbar .nav > li a:focus { color: #C8DBF2; }
+.navbar-default {background-image: linear-gradient(to bottom,#999 0,#555 100%);}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus { background: #00489F; color: #FFFFFF; opacity: 0.75;  filter: alpha(opacity=75);}
+.navbar-default .navbar-toggle:hover .icon-bar,
+.navbar-default .navbar-toggle:focus .icon-bar { background: #222222; }
+
+.fixed .navbar  { position: fixed; top: 60px; }
+
+
 @media (max-width: 1200px) { 
 	#interests .interest-content { padding: 20px 0px; }
 }
@@ -241,7 +256,7 @@ hr { margin: 40px 0px; border-color: #58637d; opacity: 0.2; filter:alpha(opacity
 .jumbotron .container > * { text-align: center; color: #FFFFFF; }
 .jumbotron .container h1 { padding-bottom: 20px; border-bottom: 1px solid #FFFFFF; border-bottom-color: rgba(255,255,255,0.35); display: inline-block; }
 .jumbotron .container .lead { font-size: 20px; }
-.jumbotron .scroll-down { height: 80px; width: 110px; display: block; position: absolute; bottom: 0px; right: 5%; background-color: #EBF1F3; text-align: center; z-index: 6; border: 1px solid black; border-top-left-radius: 8px; border-top-right-radius: 8px;}
+.jumbotron .scroll-down { height: 80px; width: 110px; display: block; position: absolute; bottom: 0px; right: 5%; background-color: #999; text-align: center; z-index: 6; border-top: 1px solid black; border-top: 1px solid black; border-top: 1px solid black; border-top-left-radius: 8px; border-top-right-radius: 8px;}
 .jumbotron .scroll-down .glyphicon { 
 	color: #222; 
 	font-size: 30px; 

@@ -13,13 +13,13 @@
 
 	<title>William Mollenkopf's Interactive Resume - Programmer, Systems Administrator, 日本語の学生</title>
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet" type="text/css" />
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	
 	<!-- Optional theme -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	
 	
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -29,7 +29,7 @@
 	<script src="./js/script.js"></script>
 	<link rel="stylesheet" href="./css/styles.css" />
 </head>
-<body>
+<body data-spy="scroll" data-target="#navbar-example">
 	
 	
 	
@@ -43,7 +43,30 @@
 			<span class="glyphicon glyphicon-chevron-down"></span>
 		</a>
 	</div>
-			
+	
+	<nav class="navbar navbar-default" id="navbar-example" role="navigation">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse navbar-ex1-collapse">
+			<ul class="nav navbar-nav">
+				<li class=""><a href="#profile">Profile</a></li>
+				<li class=""><a href="#experiences">Experiences</a></li>
+				<li class="active"><a href="#abilities">Abilities</a></li>
+									<li class=""><a href="#projects">Projects</a></li>
+				<li class=""><a href="#contact">Contact</a></li>
+			</ul>
+		</div><!-- /.navbar-collapse -->
+	</nav>
+
 		
 	<div class="background-snowwhite">
 		<div id="profile" class="container">
@@ -1110,7 +1133,7 @@
 				<div class="col-md-6">
 					<ul class="no-bullets">
 						<li>
-							<a href="mailto:biri@biri.me">
+							<a href="mailto:em.irib@irib">
 								<span class="icon icon-email"></span>
 								<span style="unicode-bidi:bidi-override; direction: rtl;">
 									em.irib@irib
