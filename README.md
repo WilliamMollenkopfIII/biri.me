@@ -4,9 +4,9 @@ A work in progress to update my personal site.
 I'm planning to start with a single page site, and then port that into a a ReactJS multipage site.
 
 # Todo
-* Add Github links
-* Add Projects Section
-  * Create a Gallery of recent projects in a thumbnail format
+* ~~Add Github links~~
+* ~~Add Projects Section~~
+  * ~~Create a Gallery of recent projects in a thumbnail format~~
   * Add all past projects as a list, within a mobile friendly modal popup
 * Add Navigation Buddy-Bar
 * Phase old site out
@@ -21,3 +21,5 @@ I'm planning to start with a single page site, and then port that into a a React
   * Build The Site
   * Publish the ReactJS version to GitHub
 * Add Animations
+  * Add animation when hovering over face
+  * Add animation after 10? seconds of idling mouse movement (maybe)
