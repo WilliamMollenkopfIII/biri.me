@@ -13,7 +13,7 @@ h3 { font-size: 28px; }
 
 p.lead { text-align: center; color: #58637d; }
 p.lead a { color: #FFFFFF; text-decoration: underline; }
-#contact p.lead { text-align: center; color: #727878; }
+#contact .lead { text-align: center; color: #727878; }
 
 p.lead a:hover { text-decoration: none; }
 ul.no-bullets { list-style-type: none; margin: 0px; padding: 0px; }
@@ -27,6 +27,7 @@ hr { margin: 40px 0px; border-color: #58637d; opacity: 0.2; filter:alpha(opacity
 .icon.icon-linkedin { background-position: 0px -32px; }
 .icon.icon-skype { background-position: 0px -64px; }
 .icon.icon-email { background-position: 0px -96px; }
+.icon.icon-git { background-position: 0px -128px; }
 
 			
 	#header_extra_spacing {display: none;}
