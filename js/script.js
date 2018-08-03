@@ -34,4 +34,7 @@ $(document).ready(function(){
 function applyHeader()
 {
 	$('.jumbotron').css({ height: ($(window).height()) +'px' });
+	 $(window).resize(function(){
+        $('.jumbotron').css({ height: ($(window).height()) +'px' });
+    });
 } 
