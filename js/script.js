@@ -2,7 +2,7 @@ var lnStickyNavigation;
 
 $(document).ready(function(){	
 	fixNav();
-	//applyHeader();
+	applyHeader();
 	//applyNavigation(); 
 	//applyMailTo();
 	//applyResize();
@@ -30,8 +30,8 @@ $(document).ready(function(){
 		
 
    }
-/*
+
 function applyHeader()
 {
-	$('.jumbotron').css({ height: ($(window).height()/2) +'px' });
-} */
+	$('.jumbotron').css({ height: ($(window).height()) +'px' });
+} 
