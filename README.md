@@ -7,13 +7,13 @@ I'm planning to start with a single page site, and then port that into a a React
 * ~~Add Github links~~
 * ~~Add Projects Section~~
   * ~~Create a Gallery of recent projects in a thumbnail format~~
-  * Add all past projects as a list, within a mobile friendly modal popup
+  * ~~Add all past projects as a list, within a mobile friendly modal popup~~
 * ~~Add Navigation Buddy-Bar~~
-* Phase old site out
-  * Back up the CURRENT version of it
-  * Change dns to point to blog.biri.me
-    * Change WordPress settings as well for this change.
-  * Back up the final result version
+* ~~Phase old site out~~
+  * ~~Back up the CURRENT version of it~~
+  * ~~Change dns to point to blog.biri.me~~
+    * ~~Change WordPress settings as well for this change.~~
+  * ~~Back up the final result version~~
 * Switch www.biri.me -> here
   * Update DNS to point to this github.io page.
   * Update Github settings for the DNS change

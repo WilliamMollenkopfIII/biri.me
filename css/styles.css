@@ -29,7 +29,7 @@ hr { margin: 40px 0px; border-color: #58637d; opacity: 0.2; filter:alpha(opacity
 .icon.icon-email { background-position: 0px -96px; }
 .icon.icon-git { background-position: 0px -128px; }
 
-			
+	.projYear {font-weight: bold;}
 	#header_extra_spacing {display: none;}
 
 
