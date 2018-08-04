@@ -23,3 +23,5 @@ I'm planning to start with a single page site, and then port that into a a React
 * Add Animations
   * Add animation when hovering over face
   * Add animation after 10? seconds of idling mouse movement (maybe)
+* Clean up CSS
+* Clean up JavaScript
