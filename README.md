@@ -14,9 +14,7 @@ I'm planning to start with a single page site, and then port that into a a React
   * ~~Change dns to point to blog.biri.me~~
     * ~~Change WordPress settings as well for this change.~~
   * ~~Back up the final result version~~
-* Switch www.biri.me -> here
-  * Update DNS to point to this github.io page.
-  * Update Github settings for the DNS change
+* Switch www.biri.me -> this resume site
 * Build ReactJS version of this site.
   * Build The Site
   * Publish the ReactJS version to GitHub
