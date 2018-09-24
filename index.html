@@ -58,11 +58,12 @@
 		<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse navbar-ex1-collapse">
 			<ul class="nav navbar-nav">
-				<li class=""><a href="#profile">Profile</a></li>
+				<li class="active"><a href="#profile">Profile</a></li>
 				<li class=""><a href="#experiences">Experiences</a></li>
-				<li class="active"><a href="#abilities">Abilities</a></li>
-									<li class=""><a href="#projects">Projects</a></li>
+				<li class=""><a href="#abilities">Abilities</a></li>
+				<li class=""><a href="#projects">Projects</a></li>
 				<li class=""><a href="#contact">Contact</a></li>
+				<li class="" style="display: none;"><a href="#cv">CV</a></li>
 			</ul>
 		</div><!-- /.navbar-collapse -->
 	</nav>
@@ -73,7 +74,8 @@
 			<div class="modal-content" style="text-align: center;">
 				<div style="text-align: right;"><button class="btn btn-danger" data-dismiss="modal">X</button></div>
 				<div class="modal-body" style="padding-top: 0px;">
-					<h3>Past & Current Projects</h3>
+					
+					<h3>Past & Current Projects (CV)</h3>
 					<hr>
 					<div style="text-align: left;">
 						<ul>
@@ -1309,6 +1311,7 @@
 
 <!-- Projects -->
 <div class="background-snowblue">
+	<div id="cv" class="container" style="padding: 0px; margin: 0px; width: 0px; height: 0px;"></div>
 	<div id="projects" class="container">
 		<h2>Projects</h2>
 		<blockquote class="blockquote lead" style="border-left: none !important; text-align: center;">
@@ -1355,7 +1358,7 @@
 			<div class="col-md-12">
 				<hr/>
 				<div class="text-center">
-					<a href="javascript:void(0);" onClick="$('#past-projects').modal('show');" class="btn btn-primary">View Full List <span class="glyphicon glyphicon-new-window"></span></a>
+					<a href="javascript:void(0);" onClick="$('#past-projects').modal('show');" class="btn btn-primary">View Full List (CV) <span class="glyphicon glyphicon-new-window"></span></a>
 				</div>
 			</div>
 		</div>
