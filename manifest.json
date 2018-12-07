@@ -1,0 +1,15 @@
+{
+  "short_name": "William Mollenkopf's Interactive Resume",
+  "name": "William Mollenkopf's Interactive Resume - Programmer, Systems Administrator, 日本語の学生",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#EBF1F3"
+}
