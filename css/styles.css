@@ -47,7 +47,7 @@ hr { margin: 40px 0px; border-color: #58637d; opacity: 0.2; filter:alpha(opacity
 
 .wfm3image {
 	vertical-align: middle;
-background-image: url("./images/wm3-250.png");
+background-image: url("./../images/wm3-250.png");
 height: 250px; /* required */
 background-position: center; 
 background-repeat: no-repeat;
